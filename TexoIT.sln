@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BAFDBF2D-8C2B-4917-8058-E545418E03FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TexoIt.Api", "src\TexoItApi\TexoIt.Api.csproj", "{6C62C7B9-2290-479E-98F7-E21026F9253E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TexoIt.Core", "src\TexoItCore\TexoIt.Core.csproj", "{1A10C009-17E8-46A9-9DD7-3469412C2D83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TexoIt.Infra", "src\TexoItInfra\TexoIt.Infra.csproj", "{C9732F23-F934-4561-9BCB-4B97F4535FDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TexoIt.Test", "src\Test\TexoIt.Test.csproj", "{993A8141-936F-4A7D-84D5-6B0298B4360C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F85F4735-9F74-4CE7-A8EA-F280A3F3A38E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C62C7B9-2290-479E-98F7-E21026F9253E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C62C7B9-2290-479E-98F7-E21026F9253E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C62C7B9-2290-479E-98F7-E21026F9253E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C62C7B9-2290-479E-98F7-E21026F9253E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A10C009-17E8-46A9-9DD7-3469412C2D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A10C009-17E8-46A9-9DD7-3469412C2D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A10C009-17E8-46A9-9DD7-3469412C2D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A10C009-17E8-46A9-9DD7-3469412C2D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9732F23-F934-4561-9BCB-4B97F4535FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9732F23-F934-4561-9BCB-4B97F4535FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9732F23-F934-4561-9BCB-4B97F4535FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9732F23-F934-4561-9BCB-4B97F4535FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993A8141-936F-4A7D-84D5-6B0298B4360C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993A8141-936F-4A7D-84D5-6B0298B4360C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993A8141-936F-4A7D-84D5-6B0298B4360C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993A8141-936F-4A7D-84D5-6B0298B4360C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C62C7B9-2290-479E-98F7-E21026F9253E} = {BAFDBF2D-8C2B-4917-8058-E545418E03FB}
+		{1A10C009-17E8-46A9-9DD7-3469412C2D83} = {BAFDBF2D-8C2B-4917-8058-E545418E03FB}
+		{C9732F23-F934-4561-9BCB-4B97F4535FDA} = {BAFDBF2D-8C2B-4917-8058-E545418E03FB}
+		{993A8141-936F-4A7D-84D5-6B0298B4360C} = {BAFDBF2D-8C2B-4917-8058-E545418E03FB}
+	EndGlobalSection
+EndGlobal
